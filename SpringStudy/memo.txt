@@ -1,0 +1,3 @@
+https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:rte2:ptl:spring_mvc_architecture
+404: 경로오류 , 500: 소스코드 오류
+produces = "text/plain;charset=UTF-8" / contantype 설정 
