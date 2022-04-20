@@ -18,7 +18,7 @@ public class AuthController {
 	}
 	
 	@ResponseBody
-	@RequestMapping(value = "/auth/signin/data", method = RequestMethod.GET)
+	@RequestMapping(value = "/auth/signin/data", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
 	public String signinData() {
 		
 		return "일반 텍스트 데이터를 응답합니다.";
