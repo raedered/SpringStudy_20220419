@@ -15,7 +15,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-//@Component
+@Component("authService")
 public class AuthServiceImpl implements AuthService{
 	@Autowired
 	@Qualifier("authDao1")
